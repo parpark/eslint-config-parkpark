@@ -1,6 +1,6 @@
 {
   "name": "@parkpark.dk/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,8 @@
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-react": "^7.4.0",
     "eslint-plugin-standard": "^3.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.19.0"
   }
 }
