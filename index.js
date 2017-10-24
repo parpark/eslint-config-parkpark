@@ -1,5 +1,9 @@
 module.exports = {
     "parser": "babel-eslint",
+    "globals": { "fetch": false, "alert": false, "__DEV__": true },
+    "env": {
+      "es6": true
+    }
     "extends": [
         "standard",
         "prettier",
@@ -11,6 +15,7 @@ module.exports = {
         "standard"
     ],
     "rules": {
-        "prettier/prettier": "error"
+        "prettier/prettier": "error",
+        "react/jsx-uses-react": "off"
     }
 }
